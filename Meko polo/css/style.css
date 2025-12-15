@@ -1,0 +1,246 @@
+header {
+  padding: 37px 0 24px 0;
+  background: linear-gradient(#d5d5d5, #fff, #fff, #fff);
+  text-align: center;
+}
+#logo img {
+  width: 26%;
+}
+menu {
+  padding: 20px 0;
+}
+menu li {
+  font: 0.7em Tahoma, sans-serif;
+  color: #b7b7b7;
+  padding: 0 10px 7px 10px;
+}
+menu li a {
+  display: block;
+  font: bold 0.9rem Georgia, serif;
+  text-transform: uppercase;
+  color: #666;
+}
+main {
+  background: #fff url("../img/main-bg.jpg") repeat-x;
+  padding: 20px 0 0 0;
+}
+#slider {
+  height: 340px;
+  border: 1px solid #c6c6c6;
+  border-radius: 8px;
+  background: url("../img/slider1.jpg") center/cover;
+}
+h1 {
+  font: bold 1.5em Georgia, serif;
+  color: #000;
+  text-align: center;
+  padding: 20px 0;
+}
+h2 {
+  font: 1.3em Georgia, serif;
+  letter-spacing: 1px;
+  color: #11719e;
+}
+h3 {
+  font: 1.2em Georgia, serif;
+  color: #444;
+  padding: 6px 0;
+}
+h6 {
+  font: 0.75em Helvetica, serif;
+  color: #8c8c8c;
+}
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+}
+.row {
+  padding: 20px 0;
+}
+.col {
+  padding: 10px;
+}
+article img {
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  padding: 6px;
+  background: #f3f3f3;
+  width: 100%;
+  margin: 16px 0;
+}
+article p {
+  font: 0.8em/1.5 Helvetica, serif;
+  color: #3e3e3e;
+  text-align: justify;
+}
+.btn1,
+.btn2 {
+  display: block;
+  width: 160px;
+  padding: 7px 10px;
+  border-radius: 4px;
+  text-align: left;
+  margin: 1em 0;
+}
+.btn1 {
+  border: 1px solid #d8d8d8;
+  background: linear-gradient(to right, #e8e8e8, #f7f7f7, #e8e8e8, #eee);
+  font: 0.75em Helvetica, sans-serif;
+  color: #016999;
+}
+.btn2 {
+  border: 1px solid #004a80;
+  background: linear-gradient(to right, #356ca3, #4d83bb, #4072a5, #306193);
+  font: 0.75em Georgia, serif;
+  color: #fff;
+}
+.btn1 span,
+.btn2 span {
+  float: right;
+}
+.col p {
+  width: 299px;
+  font: 0.8em, Arial, Helvetica, sans-serif;
+  line-height: 14px;
+  padding: 10px 0;
+  color: #444444;
+}
+.newsletterh3 {
+  font-size: 1.2em "Gill Sans", sans-serif;
+  color: #444444;
+  font-weight: bold;
+}
+.form {
+  width: 296px;
+  height: 33px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid #cfcfcf;
+  font-size: 10px;
+  outline: none;
+  font-family: "Verdana";
+  margin: 10px 0;
+}
+.textarea {
+  height: 187.3px;
+}
+.news-box {
+  border-bottom: 1px dashed #d3d3d3;
+  margin: 24.7px 0;
+}
+.news-box img {
+  border: 7px solid #cfcfcf80;
+  height: 60px;
+  margin: 5px 5px 0 0;
+}
+.news-box img {
+  float: left;
+}
+footer {
+  height: 183px;
+  background: #333;
+  border-top: 10px solid #4c4c4c;
+}
+footer p {
+  font-size: 11px;
+  line-height: 20px;
+  color: #999999;
+  font-family: "Helvetica";
+}
+#icons1,
+#icons2 {
+  padding: 1em 0;
+}
+#icons1 a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px #333;
+  background-image: url("../img/icons.png");
+}
+#rss {
+  background-position: 0 0;
+}
+#fcb {
+  background-position: -50px 0;
+}
+#lin {
+  background-position: -100px 0;
+}
+#ytb {
+  background-position: -150px 0;
+}
+#tmb {
+  background-position: -200px 0;
+}
+
+#rss:hover {
+  background-position: 0 -50px;
+}
+#fcb:hover {
+  background-position: -50px -50px;
+}
+#lin:hover {
+  background-position: -100px -50px;
+}
+#ytb:hover {
+  background-position: -150px -50px;
+}
+#tmb:hover {
+  background-position: -200px -50px;
+}
+
+#icons2 a {
+  font-size: 3.1em;
+  color: #aaa;
+  width: 50px;
+}
+.fa-square-rss:hover {
+  color: orange !important;
+}
+.fa-square-facebook:hover {
+  color: darkblue !important;
+}
+.fa-linkedin:hover {
+  color: turquoise !important;
+}
+.fa-square-youtube:hover {
+  color: red !important;
+}
+.fa-square-tumblr:hover {
+  color: aqua !important;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 940px;
+    margin: auto;
+  }
+  header {
+    text-align: initial;
+  }
+  menu {
+    float: right;
+  }
+  menu li {
+    display: inline-block;
+    border-left: 1px dotted #d6d6d6;
+  }
+  .row::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+  .col {
+    width: 33.33%;
+    float: left;
+  }
+  .left-ft {
+    float: left;
+    margin: 10px 20px 0 0;
+  }
+  .right-ft {
+    float: left;
+    margin: 10px 0 0 280px;
+  }
+}
